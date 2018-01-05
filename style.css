@@ -1,0 +1,46 @@
+.main-container {
+    display: flex;
+    width: 100vw;
+}
+
+.left-container,
+.right-container {
+    border: 1px solid black;
+    padding: 50px;
+    margin: 0px 0px 50px 100px;
+    height: 20rem;
+    width: 20rem;
+}
+
+
+
+button{
+    height: 22px;
+    align-self: center;
+    border-radius: 5px;
+    
+}
+
+p{
+    align-content: center;
+    width: auto;
+    height: 1rem;
+    /* border: 1px solid black; */
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap; 
+    align-content: center;
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+}
+
+li{
+    justify-content: center;
+    /* border: 1px solid black; */
+    height: auto;
+    width: auto; 
+    margin: 20px 20px 20px 20px;
+}
